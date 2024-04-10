@@ -15,6 +15,8 @@ font-size: 110px;
 text-align: center;
 margin-top: 200px;
 color: white;
+animation: fadeInOut 4s ease infinite alternate;
+opacity: 0;
 }
 
 h2{
@@ -24,4 +26,26 @@ font-style: normal;
 font-size: 160px;
 text-align: center;
 color: #F2B9AC;
+animation: easeIn 2s ease;
+opacity: 0;
+}
+
+@keyframes fadeInOut {
+  0%, 100%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+}
+
+@keyframes easeIn{
+  from{
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
