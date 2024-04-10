@@ -19,13 +19,13 @@ body {
   margin-top: 30px;
   color: white;
   display: inline-block;
-  margin-left:70px;
+  margin-left: 70px;
   margin-right: 35%;
   margin-bottom: 100px;
-  animation: fadeInOut 6s linear infinite;
+  animation: fadeInOut 8s linear infinite;
 }
 
-.lyrics2{
+.lyrics2 {
   font-family: "lumios-brush", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -34,18 +34,32 @@ body {
   color: #F2B9AC;
   display: inline-block;
   margin-right: 40%;
-  animation: easeIn 2s ease;
+  opacity: 0;
+  animation: fadeInRight 6s linear infinite;
 }
 
-.lyrics3{
-    font-family: "lumios-brush", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 100px;
-    text-align: center;
-    color: #F2B9AC;
-    display: inline-block;
-    margin-top: 10%;
-    margin-right: 20%;
-    animation: easeIn 2s ease;
+.lyrics3 {
+  font-family: "lumios-brush", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  text-align: center;
+  color: #F2B9AC;
+  display: inline-block;
+  margin-top: 10%;
+  margin-right: 20%;
+  opacity: 0;
+  animation: fadeInRight 6s linear infinite;
 }
+
+@keyframes fadeInOut {
+  0%, 100% { opacity: 0; }
+  45% { opacity: 1; }
+  55% { opacity: 1; }
+}
+
+@keyframes fadeInRight {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
