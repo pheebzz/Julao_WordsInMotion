@@ -1,27 +1,52 @@
 * {
   margin: 0;
-  padding:0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-  background-color: #F2B9AC;
+body {
+  background-color: #f2b9ac;
+  overflow-x: scroll;
+  white-space: nowrap;
 }
 
-.lyrics1{
-font-family: "freude";
-font-weight: 400;
-font-style: normal;
-font-size: 110px;
-text-align: left;
-margin-top: 30px;
-color: #DED0F2;
+.lyrics {
+  font-family: "freude";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 110px;
+  text-align: center;
+  margin-top: 30px;
+  color: #ded0f2;
+  display: inline-block;
+  margin-left:70px;
+  margin-right: 35%;
+  margin-bottom: 100px;
+  animation: fadeInOut 6s linear infinite;
 }
 
 .lyrics2{
-font-family: "lumios-brush", sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size: 110px;
-text-align: right;
-color: #91AAF2;
+  font-family: "lumios-brush", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  text-align: center;
+  color: #91aaf2;
+  display: inline-block;
+  margin-right: 45%;
+  animation: easeIn 2s ease;
 }
+
+.lyrics3{
+    font-family: "lumios-brush", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    text-align: center;
+    color: #91aaf2;
+    display: inline-block;
+    margin-top: 10%;
+    margin-right: 30%;
+    animation: easeIn 2s ease;
+}
+
