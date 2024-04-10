@@ -27,7 +27,6 @@ font-size: 160px;
 text-align: center;
 color: #F2B9AC;
 animation: easeIn 2s ease;
-opacity: 0;
 }
 
 @keyframes fadeInOut {
