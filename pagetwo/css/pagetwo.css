@@ -25,6 +25,15 @@ body {
   animation: fadeInOut 8s linear infinite;
 }
 
+.high{
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.high:hover{
+  color: red;
+}
+
 .lyrics2 {
   font-family: "lumios-brush", sans-serif;
   font-weight: 400;
