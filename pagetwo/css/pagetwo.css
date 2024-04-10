@@ -31,7 +31,12 @@ body {
 }
 
 .high:hover{
-  color: red;
+  color: #6B98F2;
+  transform: translate(400px, -800px) skew(57deg, 32deg);
+  -webkit-transform: translate(400px, -800px) skew(57deg, 32deg);
+  -moz-transform: translate(400px, -800px) skew(57deg, 32deg);
+  -ms-transform: translate(400px, -800px) skew(57deg, 32deg);
+  -o-transform: translate(400px, -800px) skew(57deg, 32deg);
 }
 
 .lyrics2 {
@@ -45,6 +50,15 @@ body {
   margin-right: 40%;
   opacity: 0;
   animation: fadeInRight 6s linear infinite;
+}
+
+.sky{
+  transition: color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.sky:hover{
+  color: #6B98F2;
 }
 
 .lyrics3 {
