@@ -29,6 +29,11 @@ color: #F2B9AC;
 animation: easeIn 2s ease;
 }
 
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
 @keyframes fadeInOut {
   0%, 100%{
     opacity: 0;
