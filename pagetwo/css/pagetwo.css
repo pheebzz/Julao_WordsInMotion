@@ -25,6 +25,14 @@ body {
   animation: fadeInOut 8s linear infinite;
 }
 
+.reach{
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.reach:hover{
+  transform: scaleX(1.5);
+}
 .high{
   transform: 
   -webkit-transform 0.5s ease-in-out,
@@ -55,6 +63,13 @@ body {
   margin-right: 40%;
   opacity: 0;
   animation: fadeInRight 6s linear infinite;
+}
+
+.floor{
+  transition: transform 0.5s ease-in-out;
+}
+.floor:hover{
+  transform: translateY(-10px);
 }
 
 .sky{
